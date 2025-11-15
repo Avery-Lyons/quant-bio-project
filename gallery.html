@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.0/swiper-bundle.min.css"
+    />
+
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="code.html">Code</a>
+    <a href="gallery.html">Image Slider</a>
+</nav>
+
+<main>
+    <h1>Image Slider</h1>
+    <p>Images will appear here after you add them to the /images folder.</p>
+
+    <!-- Slider Structure -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <!-- Example slides — replace with your images later -->
+            <div class="swiper-slide"><img src="images/sample1.jpg"></div>
+            <div class="swiper-slide"><img src="images/sample2.jpg"></div>
+            <div class="swiper-slide"><img src="images/sample3.jpg"></div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- Page indicator dots -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+</main>
+
+<!-- Swiper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.0/swiper-bundle.min.js"></script>
+
+<script src="slider.js"></script>
+
+</body>
+</html>
